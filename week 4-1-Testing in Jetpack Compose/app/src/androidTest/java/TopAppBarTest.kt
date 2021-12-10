@@ -59,4 +59,14 @@ class TopAppBarTest {
         ).assertExists()
     }
 
+    @Test
+    fun rallyTopAppBarTest_clickBills() {
+
+        composeTestRule
+            .onNodeWithContentDescription(RallyScreen.Bills.name).apply {
+            performClick()
+        }
+
+
+    }
 }
