@@ -66,7 +66,6 @@ class TopAppBarTest {
             .onNodeWithContentDescription(RallyScreen.Bills.name).apply {
             performClick()
         }
-
-
+        // TODO assert using the state
     }
 }
